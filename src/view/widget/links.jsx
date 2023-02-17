@@ -35,7 +35,7 @@ class Links extends Component {
                 else
                   try {
                     hostname = new URL(hostname).hostname;
-                  } catch (e) { }
+                  } catch (e) {}
                 hostname = 'click to visit';
                 return (
                   <li>
