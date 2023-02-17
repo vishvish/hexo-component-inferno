@@ -36,6 +36,7 @@ class Links extends Component {
                   try {
                     hostname = new URL(hostname).hostname;
                   } catch (e) {}
+                  hostname = "click to visit";
                 return (
                   <li>
                     <a class="level is-mobile" href={links[i]} target="_blank" rel="noopener">
